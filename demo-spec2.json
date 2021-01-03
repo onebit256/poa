@@ -3,12 +3,16 @@
     "engine": {
         "authorityRound": {
             "params": {
-                "stepDuration": "5",
+                "stepDuration": "1",
                 "validators" : {
-		    "list": [
-			"xxx",
-			"xxx"
-		    ]
+		    "multi": {
+			"0": {
+			    "list": ["0xed68e06d0f9012c6b7ae9414d8bfb641a0d00704"]
+				},
+			"2": {
+			    "list": ["0x972882f993599daf2870f910bae38fafeaa6d210"]
+				}
+    			}
 		}
             }
         }
@@ -40,8 +44,6 @@
         "0x0000000000000000000000000000000000000002": { "balance": "1", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
         "0x0000000000000000000000000000000000000003": { "balance": "1", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
         "0x0000000000000000000000000000000000000004": { "balance": "1", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
-	"xxx": { "balance": "10000000000000000000000" },
-	"xxx": { "balance": "10000000000000000000000" },
-	"xxx": { "balance": "10000000000000000000000" }
+	"0x4a2667B4340Cf180eB832e6C623F1eC27E88e33d": { "balance": "10000000000000000000000" }
     }
 }

@@ -3,11 +3,13 @@ chain = "demo-spec.json"
 base_path = "parity1"
 [network]
 port = 30301
+reserved_peers = "bootnodes.txt"
 [rpc]
 port = 8541
-apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
-[ui]
-port = 8181
+apis = ["all"]
+interface = "0.0.0.0"
+cors = ["all"]
+hosts = ["all"]
 [websockets]
 port = 8451
 [ipc]
@@ -15,6 +17,8 @@ disable = true
 [account]
 password = ["node.pwds"]
 [mining]
-engine_signer = "0x00Aa39d30F0D20FF03a22cCfc30B7EfbFca597C2"
-gas_floor_target = "16000000"
+engine_signer = "0x972882f993599daf2870f910bae38fafeaa6d210"
 reseal_on_txs = "none"
+force_sealing = true
+reseal_min_period = 0
+reseal_max_period = 10000

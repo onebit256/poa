@@ -5,13 +5,11 @@ base_path = "parity2"
 port = 30302
 [rpc]
 port = 8542
-apis = ["web3", "eth", "net", "personal", "parity", "parity_set", "traces", "rpc", "parity_accounts"]
+apis = ["all"]
 interface = "0.0.0.0"
 processing_threads = 4
 cors = ["all"]
 hosts = ["all"]
-[ui]
-port = 8182
 [websockets]
 port = 8452
 [account]
