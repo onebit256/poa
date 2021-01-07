@@ -1,0 +1,21 @@
+[parity]
+chain = "demo-spec.json"
+base_path = "parity4"
+[network]
+port = 30304
+reserved_peers = "bootnodes.txt"
+[rpc]
+port = 8544
+apis = ["all"]
+interface = "0.0.0.0"
+processing_threads = 4
+cors = ["all"]
+hosts = ["all"]
+[websockets]
+port = 8454
+[account]
+password = ["node.pwds"]
+[mining]
+engine_signer = "0xc083aaa9cd7b28bd3ab59c95e2e0c7b54868abc1"
+gas_floor_target = "16000000"
+reseal_on_txs = "none"
