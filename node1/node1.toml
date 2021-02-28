@@ -1,0 +1,33 @@
+[parity]
+chain = "demo-spec.json"
+base_path = "parity1"
+[network]
+port = 30301
+reserved_peers = "bootnodes.txt"
+[rpc]
+port = 8541
+apis = ["all"]
+interface = "0.0.0.0"
+cors = ["all"]
+hosts = ["all"]
+[websockets]
+port = 8451
+[account]
+password = ["node.pwds"]
+[mining]
+engine_signer = "0xaac1f0698533962f9772ec0ef0e1ba2860bcbdeb"
+reseal_on_txs = "none"
+force_sealing = true
+reseal_min_period = 0
+reseal_max_period = 10000
+min_gas_price = 1000000000 # 1 GWei
+gas_cap = "100000000000" # 100 billion
+gas_floor_target = "100000000000" # 100 billion
+tx_gas_limit = "100000000000" # 100 billion
+# Tx rate limiting for user
+tx_queue_size = 1000
+tx_queue_mem_limit = 512
+tx_queue_per_sender = 100
+tx_queue_strategy = "gas_price"
+tx_queue_no_unfamiliar_locals = true
+tx_time_limit = 5000 # 5 seconds

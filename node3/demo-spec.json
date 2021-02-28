@@ -1,0 +1,51 @@
+{
+    "name": "DemoPoA",
+    "engine": {
+        "authorityRound": {
+            "params": {
+                "stepDuration": "2",
+                "validators" : {
+		    "multi": {
+			"0": {
+			       "list": ["0xcaa8e2e2dc97cc990c477d1ac34afa059385659b","0xaac1f0698533962f9772ec0ef0e1ba2860bcbdeb"]
+				}
+    			}
+		}
+            }
+        }
+    },
+    "params": {
+        
+        "maxCodeSize": "0x70000",
+	"maxCodeSizeTransition": "0x0",
+	"gasLimitBoundDivisor": "0x400",
+        "maximumExtraDataSize": "0x20",
+        "minGasLimit": "0x1000",
+        "networkID" : "0x2323",
+        "eip140Transition": "0x0",
+    "eip150Transition": "0x0",
+    "eip160Transition": "0x0",
+    "eip161abcTransition": "0x0",
+    "eip161dTransition": "0x0",
+    "eip211Transition": "0x0",
+    "eip214Transition": "0x0",
+    "eip658Transition": "0x0"
+    },
+    "genesis": {
+        "seal": {
+            "authorityRound": {
+                "step": "0x0",
+                "signature": "0x0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+            }
+        },
+        "difficulty": "0x20000",
+        "gasLimit": "0x6ACFC0"
+    },
+    "accounts": {
+        "0x0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
+        "0x0000000000000000000000000000000000000002": { "balance": "1", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
+        "0x0000000000000000000000000000000000000003": { "balance": "1", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
+        "0x0000000000000000000000000000000000000004": { "balance": "1", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
+	"0xCAA8e2e2dC97Cc990C477d1AC34aFA059385659B": { "balance": "10000000000000000000000" }
+    }
+}

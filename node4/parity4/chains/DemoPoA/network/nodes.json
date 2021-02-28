@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "url": "enode://e0aeb29e3b6a31d9add3b5300da4ae9699aad4af5a7441a3dce89c0205f535b2cf1a9568dfb4a91a3e187d9ebd6990d6024c81cbc236a3f660cc7c48c7727fbd@192.168.1.18:30302",
+      "last_contact": {
+        "success": 1614530134
+      }
+    },
+    {
+      "url": "enode://f28b6f0ebdf84ac33cf623f15e320d18693d6ff222c5f8728efcd62fd5160fcfe6ac283409ffbe07d965980ee18bbb5d9a38eb31d9c9af546209ab3a45062bb6@192.168.1.18:30300",
+      "last_contact": {
+        "success": 1614530125
+      }
+    },
+    {
+      "url": "enode://df0cf871459f0840430ff0378d52b0e40be279eb1d5b5734c99849709abb3b63c843e6768d3a7bb62f7817fa72764d498509a13054ac15c77fbd3715965037f8@192.168.1.18:30303",
+      "last_contact": {
+        "failure": 1614529619
+      }
+    },
+    {
+      "url": "enode://24dd727595e1f709f6200852b06da5409c80084f84828e9f27f461185ea73d08313f6a8bbb9ca666105142113273dc5e24ecee3d2a420c2796d3bdc114c2ed71@192.168.1.18:30300",
+      "last_contact": {
+        "failure": 1614530075
+      }
+    },
+    {
+      "url": "enode://035fcc03e6946bfac8576d34fa919b334ce1b7bc491bb38a79cdfb7abb96079b42d61d34a6a39b555b7209c38862f54252b345ff8d7e74562d061dd3559099a3@192.168.1.18:30301",
+      "last_contact": {
+        "failure": 1614530079
+      }
+    },
+    {
+      "url": "enode://874ec988a8874904a7eb78cf2380f1117061b11867132ad119c83af7d001ea94c0391e155c23e3cc172125cb8053654dbd89b7a90c8f496f1a45e53f8d6f0d03@192.168.1.18:30301",
+      "last_contact": {
+        "failure": 1614530125
+      }
+    }
+  ]
+}
